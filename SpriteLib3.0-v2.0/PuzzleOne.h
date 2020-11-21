@@ -24,4 +24,8 @@ protected:
 	int hexagon;
 	int WallOne;
 	int WallTwo;
+	int HoverWall;
+	int button;
+	int ground;
+	
 };
