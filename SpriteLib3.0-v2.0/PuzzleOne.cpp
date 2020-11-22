@@ -49,7 +49,6 @@ void PuzzleOne::InitScene(float windowWidth, float windowHeight)
 	{
 		auto entity = ECS::CreateEntity();
 		ECS::SetIsMainPlayer(entity, true);
-		boy = entity;
 		//Add components
 		ECS::AttachComponent<Player>(entity);
 		ECS::AttachComponent<Sprite>(entity);
@@ -57,7 +56,7 @@ void PuzzleOne::InitScene(float windowWidth, float windowHeight)
 		ECS::AttachComponent<PhysicsBody>(entity);
 		ECS::AttachComponent<CanJump>(entity);
 		ECS::AttachComponent<AnimationController>(entity);
-
+		
 		//Set up components
 		std::string fileName = "spritesheets/SoccerBoy.png";
 		std::string animations = "HoldingBasket.json";
@@ -551,7 +550,7 @@ void PuzzleOne::InitScene(float windowWidth, float windowHeight)
 	{
 		//TRIANGLE 1
 		auto entity = ECS::CreateEntity();
-		hexagon = entity;
+		
 		ECS::AttachComponent<Sprite>(entity);
 		ECS::AttachComponent<Transform>(entity);
 		ECS::AttachComponent<PhysicsBody>(entity);
@@ -588,7 +587,7 @@ void PuzzleOne::InitScene(float windowWidth, float windowHeight)
 	{
 		//TRIANGLE 2
 		auto entity = ECS::CreateEntity();
-		hexagon = entity;
+		
 		ECS::AttachComponent<Sprite>(entity);
 		ECS::AttachComponent<Transform>(entity);
 		ECS::AttachComponent<PhysicsBody>(entity);
@@ -728,7 +727,7 @@ void PuzzleOne::InitScene(float windowWidth, float windowHeight)
 	//Ball
 	{
 		auto entity = ECS::CreateEntity();
-		ball = entity;
+		
 		//Add components
 		ECS::AttachComponent<Sprite>(entity);
 		ECS::AttachComponent<Transform>(entity);

@@ -192,9 +192,6 @@
     <ClInclude Include="PuzzleOne.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ScalingSpriteTrigger.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="include\imgui\imgui.cpp">
@@ -366,9 +363,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PuzzleOne.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ScalingSpriteTrigger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

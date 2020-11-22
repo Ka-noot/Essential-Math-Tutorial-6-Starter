@@ -174,7 +174,6 @@
     <ClInclude Include="PostEffect.h" />
     <ClInclude Include="PuzzleOne.h" />
     <ClInclude Include="RenderingSystem.h" />
-    <ClInclude Include="ScalingSpriteTrigger.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Scenes.h" />
     <ClInclude Include="Selectable.h" />
@@ -234,7 +233,6 @@
     <ClCompile Include="PostEffect.cpp" />
     <ClCompile Include="PuzzleOne.cpp" />
     <ClCompile Include="RenderingSystem.cpp" />
-    <ClCompile Include="ScalingSpriteTrigger.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Selectable.cpp" />
     <ClCompile Include="SelectiveColorEffect.cpp" />

@@ -9,6 +9,5 @@
 #include"PuzzleOne.h"
 #include "DestroyTrigger.h"
 #include "CanJump.h"
-#include "ScalingSpriteTrigger.h"
 
 #endif // !__SCENES_H__

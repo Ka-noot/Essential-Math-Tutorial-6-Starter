@@ -27,7 +27,6 @@ protected:
 	int HoverWall;
 	int button;
 	int ground;
-	int boy;
 	
 	
 };
