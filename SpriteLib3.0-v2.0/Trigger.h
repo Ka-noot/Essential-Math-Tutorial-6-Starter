@@ -18,7 +18,7 @@ public:
 	std::vector<int> GetTargetEntities();
 protected:
 	int m_triggerEntity;
-	
+
 	std::vector<int> m_targetEntities;
 
 };

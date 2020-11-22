@@ -185,6 +185,7 @@
     <ClInclude Include="TextureManager.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="Transform.h" />
+    <ClInclude Include="Trial.h" />
     <ClInclude Include="Trigger.h" />
     <ClInclude Include="UI.h" />
     <ClInclude Include="Utilities.h" />
@@ -244,6 +245,7 @@
     <ClCompile Include="TextureManager.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Trial.cpp" />
     <ClCompile Include="Trigger.cpp" />
     <ClCompile Include="UI.cpp" />
     <ClCompile Include="Utilities.cpp" />

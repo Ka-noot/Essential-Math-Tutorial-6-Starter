@@ -13,6 +13,8 @@
 #include "DestroyTrigger.h"
 #include "HorizontalScroll.h"
 #include "CanJump.h"
+#include "Trial.h"
+
 
 
 

@@ -27,6 +27,8 @@ protected:
 	int HoverWall;
 	int button;
 	int ground;
+	int cone1;
+	int cone2;
 	
 	
 };
