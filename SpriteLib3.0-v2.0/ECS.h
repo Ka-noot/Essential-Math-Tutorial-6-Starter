@@ -13,7 +13,9 @@
 #include "DestroyTrigger.h"
 #include "HorizontalScroll.h"
 #include "CanJump.h"
-
+#include"ScalingSpriteTrigger.h"
+#include"CheckWhere.h"
+#include"HitBall.h"
 
 class ECS abstract
 {

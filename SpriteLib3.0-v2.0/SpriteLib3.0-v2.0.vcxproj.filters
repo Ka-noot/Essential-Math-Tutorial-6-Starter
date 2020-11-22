@@ -192,7 +192,7 @@
     <ClInclude Include="PuzzleOne.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PuzzleTwo.h">
+    <ClInclude Include="ScalingSpriteTrigger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -368,7 +368,7 @@
     <ClCompile Include="PuzzleOne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PuzzleTwo.cpp">
+    <ClCompile Include="ScalingSpriteTrigger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

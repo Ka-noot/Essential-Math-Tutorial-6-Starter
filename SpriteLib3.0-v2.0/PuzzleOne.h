@@ -20,12 +20,14 @@ public:
 protected:
 	PhysicsPlaygroundListener listener;
 
-	int ball = 0;
+	int ball=0;
 	int hexagon;
 	int WallOne;
 	int WallTwo;
 	int HoverWall;
 	int button;
 	int ground;
+	int boy;
+	
 	
 };
