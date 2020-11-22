@@ -933,7 +933,7 @@ void PuzzleOne::KeyboardHold()
 	}
 	if (player.GetPosition().x >= 260) {
 		std::cout << "NOPE";
-		//ECS::GetComponent<PhysicsBody>(MainEntities::MainPlayer()).GetBody()->SetTransform(b2Vec2(), 0);
+		
 	}
 	if (Input::GetKey(Key::O)) {
 		//player.ScaleBody(1.3 * Timer::deltaTime, 0);
