@@ -29,6 +29,8 @@ protected:
 	int ground;
 	int cone1;
 	int cone2;
-	
+	int groundFinal;
+	int smallWall;
+	int puzzleTwoWall;
 	
 };
